@@ -1,0 +1,115 @@
+
+
+/*Variables*/
+
+@first-color: #249991;
+@second-color: #17645E;
+@body-font: 'Oxygen';
+@font-color: #fff;
+@full-width: 100%;
+
+*{
+	margin: 0 auto;
+}
+body{
+	background-image: url('bg1.png');
+	background-size: @full-width;
+/*	background-repeat: no-repeat;*/
+	color: @font-color;
+	font-family: @body-font;
+}
+h1{
+	font-family: 'Yellowtail';
+	font-size: 3em;
+}
+h2{
+	text-align: center;
+	font-size: 2em;
+	color: @second-color;
+}
+
+h3{
+	color: @second-color;
+}
+a{
+	text-decoration: none;
+	color: @second-color;
+	font-family: 'Ubuntu';
+	margin: 5px;
+}
+
+nav a{
+		position: relative;
+		left: 25%;
+
+}
+a:hover{
+	color: #fff;
+}
+header{
+	background-color: @first-color;
+	padding-bottom: 2%;
+	padding-right: 1%;
+	width: @full-width;
+	height: @full-width;
+}
+ hr{
+ 	margin: 25px auto 30px;
+ 	padding: 0;
+ 	width: 15%;
+ 	border: 0;
+ 	border-top: solid 5px;
+ 	text-align: center;
+ 	border-color: @font-color; 
+ }
+ .biopic{
+ 	position: relative;
+ 	z-index: 10;
+ 	width: 30%;
+ 	top:-50px;
+ 	float: right;
+ }
+
+ nav{
+ 	float: right;
+ }
+/* /////Wrappers//////*/
+
+.mainwrapper{
+	background-color: #E76B6B;
+	margin: 10%;
+	border-radius: 17%;
+}
+
+.contwrapper{
+	margin: 7%;
+	padding: 2%;
+	position: relative;
+}
+
+.finaldiv{
+	overflow: scroll;
+}
+footer{
+	text-align: center;
+	background-color: @first-color;
+	height: @full-width;
+	width: @full-width;
+	padding: 1%;
+	bottom: 0;
+
+}
+
+.Hd1{
+	margin-left: 40%;
+	margin-bottom: 2%;
+}
+
+nav{
+	background-color: #56A49F;
+	width: @full-width;
+	height:30px;
+}
+aside{
+	float: right;
+}
